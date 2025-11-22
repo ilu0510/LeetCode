@@ -34,7 +34,8 @@ Since we need to return the index, we will have to use enumerate.
 Since this is a hashmap, the time and the space complexity is dependent on the size the nums array, hence it is O(n) for both.  
 '''
 
-def twoSum(nums, target):
+#Code - Attempt 1
+def twoSum_1(nums, target):
     h = {} #Setting up the hashmap
     for i, n in enumerate(nums): #Gives the index and the number in nums associated to the index
         diff = target - nums[i] 

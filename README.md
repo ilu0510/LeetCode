@@ -11,8 +11,14 @@ LeetCode/
 ├── README.md
 ├── Easy
 │   ├── Problem 1 - Two Sum.py
+│   ├── Problem 217 - Contains Duplicates.py
+│   ├── Problem 242 - Valid Anagram.py
+│   └── ...
 ├── Medium
+│   ├── Problem 49 - Group Anagrams.py
 ├── Hard
-├── Notes
+└── Notes
     ├── Hashmaps.md
+    ├── Sets.md
+    └──
 ```

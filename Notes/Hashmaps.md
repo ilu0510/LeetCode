@@ -1,8 +1,7 @@
 # Hashmaps
 
 ## Purpose
-Hashing is the process of transforming any given key or a string of characters into another value. Hashmaps store key-value pairs 
-in a list that is accessible through its index. 
+Hashing is the process of transforming any given key or a string of characters into another value. Hashmaps store key-value pairs in a list that is accessible through its index. 
 
 ## Python Implementation
 Python implements hashmaps through the dictionary data-type. These dictionaries are mutable, meaning that the items can be changed, 
@@ -30,13 +29,23 @@ del dict[key1] #Deleting specific key-value pair
 dict.clear()   #Deleting all
 ```
 
+## Dictionary Methods
+```
+.get()                    #Returns iterable list of tuples of key-value pairs
+.keys()                   #Returns iterable list of keys
+.values()                 #Returns iterable list of values
+.get(keyname, value)      #Returns value of item with the specified key (even if the key does not exist)
+```
+
+
 ## Time and Space Complexity
 
 ### Time Complexity
-Insertion (average): O(1) --> Worst Case: O(n) 
-Lookup (average): O(1) --> Worst Case: O(n)     
-Deletion (average): O(1) --> Worst Case: O(n)  
+Insertion: Average: O(1), Worst Case: O(n)
+
+Lookup: Average: O(1), Worst Case: O(n)  
+  
+Deletion: Average: O(1), Worst Case: O(n)
 
 ### Space Complexity
 As each key-value pair occupies constant space, complexity is O(n).
-
