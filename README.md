@@ -16,9 +16,12 @@ LeetCode/
 │   └── ...
 ├── Medium
 │   ├── Problem 49 - Group Anagrams.py
+│   ├── Problem 347 - Top K Frequent Elements.py
 ├── Hard
 └── Notes
-    ├── Hashmaps.md
-    ├── Sets.md
-    └──
+    ├── Data Structures
+    │   ├── Hashmaps.md
+    │   ├── Sets.md
+    └── Algorithms
+        ├── Bucket Sort.md
 ```

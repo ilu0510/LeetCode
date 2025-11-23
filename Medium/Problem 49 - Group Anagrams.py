@@ -32,12 +32,14 @@ We will use this as a way to compare the similarities: for each array, they grou
 So, our keys will be the array and their values will be the words. I just have to make sure that I turn the array into a tuple since lists are non-hashable. 
 We will then just return the values. 
 In order to make this hashmap, we will use defaultdict to deal with the edge case of missing keys.
+
+Since I am looping through the array with n number of words, with each word having m letters, the time complexity becomes O(m * n).
+Since I have a maximum of 26 letters, the space complexity becomes O(1)
 '''
 
 #Code - Attempt 1
-
 from collections import defaultdict
-def groupAnagrams(str):
+def groupAnagrams_1(str):
     d = defaultdict(list)
     for s in str:
         counter = [0]*26 

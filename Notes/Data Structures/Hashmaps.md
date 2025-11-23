@@ -31,10 +31,10 @@ dict.clear()   #Deleting all
 
 ## Dictionary Methods
 ```
-.get()                    #Returns iterable list of tuples of key-value pairs
 .keys()                   #Returns iterable list of keys
 .values()                 #Returns iterable list of values
 .get(keyname, value)      #Returns value of item with the specified key (even if the key does not exist)
+.items()                  #Returns a view object that contains all the key-value pairs as tuples
 ```
 
 
