@@ -45,7 +45,7 @@ def topKFrequent_2(nums, k):
     for n in nums:
         h[n] = h.get(n,0)+1
     
-    bucket = {}
+    bucket = {} 
     for num, freq in h.items():
         if freq not in bucket:
             bucket[freq] = []
