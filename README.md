@@ -19,6 +19,7 @@ LeetCode/
 │   ├── Problem 238 - Product of Array Except Self.py
 │   ├── Problem 347 - Top K Frequent Elements.py
 │   ├── Problem 271 - Encode and Decode Strings
+│   ├── Problem 128 - Longest Consecutive Sequence.py
 ├── Hard
 └── Notes
     ├── Data Structures
