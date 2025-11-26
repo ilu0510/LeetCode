@@ -13,7 +13,7 @@ LeetCode/
 │   ├── Problem 1 - Two Sum.py
 │   ├── Problem 217 - Contains Duplicates.py
 │   ├── Problem 242 - Valid Anagram.py
-│   └── ...
+│   └── Problem 125 - Valid Palindrome.py
 ├── Medium
 │   ├── Problem 49 - Group Anagrams.py
 │   ├── Problem 238 - Product of Array Except Self.py
