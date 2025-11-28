@@ -11,6 +11,7 @@ LeetCode/
 ├── README.md
 ├── Easy
 │   ├── Problem 1 - Two Sum.py
+│   ├── Problem 20 - Valid Parentheses.py
 │   ├── Problem 217 - Contains Duplicates.py
 │   ├── Problem 242 - Valid Anagram.py
 │   └── Problem 125 - Valid Palindrome.py
